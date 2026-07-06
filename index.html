@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Empresa Tecnológica</title>
+
+<style>
+
+/* Elimina márgenes y rellenos predeterminados */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+/* Configuración general de la página */
+body{
+    min-height:100vh;
+    display:flex;
+    flex-direction:column;
+    background:#f5f5f5;
+    gap:15px;
+    padding:15px;
+}
+
+/* Apariencia común de las etiquetas semánticas */
+header,
+nav,
+section,
+article,
+aside,
+footer{
+    border:2px solid #4da6ff;
+    border-radius:8px;
+    background:#e9eef2;
+}
+
+/* Encabezado */
+header{
+    height:15vh;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px;
+}
+
+/* Navegación */
+nav{
+    height:8vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+nav ul{
+    list-style:none;
+    display:flex;
+    gap:30px;
+}
+
+nav a{
+    text-decoration:none;
+    color:#333;
+    font-weight:bold;
+}
+
+/* Contenedor principal */
+main{
+    flex:1;
+    display:flex;
+    gap:20px;
+}
+
+/* Sección principal */
+section{
+    flex:3;
+    padding:20px;
+    display:flex;
+    flex-direction:column;
+    gap:20px;
+}
+
+/* Área informativa superior */
+.banner{
+    background:#d7dde3;
+    padding:30px;
+    text-align:center;
+    border-radius:8px;
+    font-weight:bold;
+}
+
+/* Artículos */
+article{
+    padding:20px;
+    min-height:150px;
+}
+
+article h2{
+    margin-bottom:10px;
+    color:#0a4d8c;
+}
+
+article p{
+    line-height:1.6;
+}
+
+/* Barra lateral */
+aside{
+    flex:1;
+    padding:20px;
+}
+
+aside h2{
+    margin-bottom:15px;
+    color:#0a4d8c;
+}
+
+aside p{
+    margin-bottom:15px;
+    line-height:1.6;
+}
+
+aside ul{
+    padding-left:20px;
+}
+
+aside li{
+    margin-bottom:8px;
+}
+
+/* Pie de página */
+footer{
+    height:15vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    padding:20px;
+}
+
+footer h3{
+    margin-bottom:10px;
+    color:#0a4d8c;
+}
+
+</style>
+</head>
+<body>
+
+
+    <!-- Encabezado de la página -->
+    <header>
+        <div class="logo">
+            <h1>HEADER</h1>
+        </div>
+
+        <div>
+            Aquí suele colocarse el logotipo, nombre de la empresa,
+            buscador, información de contacto o banner principal.
+        </div>
+    </header>
+
+    <!-- Menú de navegación -->
+    <nav>
+        <ul>
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Servicios</a></li>
+            <li><a href="#">Productos</a></li>
+            <li><a href="formulariodiseño.html">Registro</a></li>
+        </ul>
+    </nav>
+
+    <main>
+
+        <!-- Contenido principal -->
+        <section>
+
+            <div class="banner">
+                En esta sección se coloca el contenido principal del sitio web.
+            </div>
+
+            <article>
+                <div>
+                    <h2>ARTICLE 1</h2>
+
+                    <p>
+                        Un artículo puede contener noticias, publicaciones,
+                        entradas de blog, productos, servicios o cualquier
+                        contenido independiente que tenga sentido por sí mismo.
+                    </p>
+                </div>
+            </article>
+
+            <article>
+                <div>
+                    <h2>ARTICLE 2</h2>
+
+                    <p>
+                        También pueden incluirse imágenes, videos, tablas,
+                        formularios, listas o información relacionada con el
+                        tema principal de la sección.
+                    </p>
+                </div>
+            </article>
+
+        </section>
+
+        <!-- Información complementaria -->
+        <aside>
+
+            <h2>ASIDE</h2>
+
+            <p>
+                Esta área suele utilizarse para información secundaria o
+                complementaria al contenido principal.
+            </p>
+
+            <ul>
+                <li>Publicidad</li>
+                <li>Noticias destacadas</li>
+                <li>Enlaces de interés</li>
+                <li>Redes sociales</li>
+                <li>Información de contacto</li>
+            </ul>
+
+        </aside>
+
+    </main>
+
+    <!-- Pie de página -->
+    <footer>
+
+        <h3>FOOTER</h3>
+
+        <p>
+            Aquí normalmente se agregan los derechos de autor,
+            datos de contacto, políticas de privacidad,
+            mapa del sitio y enlaces a redes sociales.
+        </p>
+
+    </footer>
+
+
+
+</body>
+</html>
